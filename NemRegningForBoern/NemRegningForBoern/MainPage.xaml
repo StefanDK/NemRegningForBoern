@@ -4,8 +4,46 @@
              xmlns:local="clr-namespace:NemRegningForBoern"
              x:Class="NemRegningForBoern.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout VerticalOptions="Start" HorizontalOptions="Center">
+        <Label Text="Nem regning for børn" Margin="10, 50, 10, 10" FontSize="30" />
+        <Label Text="Vælg indstillinger:" Margin="0, 50, 0, 30" HorizontalOptions="Center" />
+        <StackLayout Orientation="Horizontal" >
+            <Label Text="Slå tidstagning til" Margin="0, 5, 20, 0" />
+            <Switch IsToggled="True" x:Name="SwitchTime" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+            <Label Text="Gem resultater" Margin="0, 5, 20, 0" />
+            <Switch IsToggled="True" x:Name="SwitchSave" HorizontalOptions="End" />
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" Margin="0, 20, 0, 20">
+            <Picker Title="Vælg type" x:Name="PickerType">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Gangestykker</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker Title="Vælg sværhedsgrad" x:Name="PickerDifficulty">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Let</x:String>
+                        <x:String>Mellem</x:String>
+                        <x:String>Svær</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker Title="Vælg antal svarmuligheder" x:Name="PickerNoOfAnswers">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>2</x:String>
+                        <x:String>4</x:String>
+                        <x:String>6</x:String>
+                        <x:String>8</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </StackLayout>
+        <Button x:Name="BtnStart" Text="Start" VerticalOptions="End" />
+    </StackLayout>
 
 </ContentPage>

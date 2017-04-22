@@ -15,6 +15,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		NemRegningForBoern\NemRegningForBoern\NemRegningForBoern.projitems*{00a78169-be8d-4392-b0b4-e5b46527961a}*SharedItemsImports = 4
 		NemRegningForBoern\NemRegningForBoern\NemRegningForBoern.projitems*{696d455a-63a0-4d7c-8163-d81c5662554e}*SharedItemsImports = 4
+		NemRegningForBoern\NemRegningForBoern\NemRegningForBoern.projitems*{7df241c2-83b2-41a6-8a8c-72c3aee18b18}*SharedItemsImports = 4
 		NemRegningForBoern\NemRegningForBoern\NemRegningForBoern.projitems*{8789dda8-6ab7-4861-93b1-b95fa6b4febc}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,6 +186,8 @@ Global
 		{7DF241C2-83B2-41A6-8A8C-72C3AEE18B18}.AppStore|x86.Build.0 = Release|x86
 		{7DF241C2-83B2-41A6-8A8C-72C3AEE18B18}.AppStore|x86.Deploy.0 = Release|x86
 		{7DF241C2-83B2-41A6-8A8C-72C3AEE18B18}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7DF241C2-83B2-41A6-8A8C-72C3AEE18B18}.Debug|Any CPU.Build.0 = Debug|x86
+		{7DF241C2-83B2-41A6-8A8C-72C3AEE18B18}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{7DF241C2-83B2-41A6-8A8C-72C3AEE18B18}.Debug|ARM.ActiveCfg = Debug|ARM
 		{7DF241C2-83B2-41A6-8A8C-72C3AEE18B18}.Debug|ARM.Build.0 = Debug|ARM
 		{7DF241C2-83B2-41A6-8A8C-72C3AEE18B18}.Debug|ARM.Deploy.0 = Debug|ARM

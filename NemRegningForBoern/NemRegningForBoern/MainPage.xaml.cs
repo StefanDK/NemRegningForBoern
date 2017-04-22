@@ -12,6 +12,18 @@ namespace NemRegningForBoern
 		public MainPage()
 		{
 			InitializeComponent();
+
+		    PickerType.SelectedIndex = 0;
+		    PickerDifficulty.SelectedIndex = 1;
+		    PickerNoOfAnswers.SelectedIndex = 1;
+
+            BtnStart.Clicked += BtnStart_Clicked;
 		}
+
+        private void BtnStart_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Test", "Skal stadig implementeres!", "OK");
+        }
+
 	}
 }
