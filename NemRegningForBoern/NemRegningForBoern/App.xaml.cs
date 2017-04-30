@@ -13,7 +13,7 @@ namespace NemRegningForBoern
 		{
 			InitializeComponent();
 
-			MainPage = new NemRegningForBoern.MainPage();
+			MainPage = new NavigationPage(new MainPage());
 		}
 
 		protected override void OnStart ()

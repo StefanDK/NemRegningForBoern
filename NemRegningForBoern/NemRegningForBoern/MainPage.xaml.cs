@@ -20,10 +20,9 @@ namespace NemRegningForBoern
             BtnStart.Clicked += BtnStart_Clicked;
 		}
 
-        private void BtnStart_Clicked(object sender, EventArgs e)
+        private async void BtnStart_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Test", "Skal stadig implementeres!", "OK");
+            await Navigation.PushAsync(new GamePage());
         }
-
 	}
 }
